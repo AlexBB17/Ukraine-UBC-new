@@ -130,7 +130,55 @@
     </div>
 
     <div class="sidebar">
-        <div class="inner-sidebar">Sidebar</div>
+        <div class="inner-sidebar">
+            <div class="sidebar-block bg-grey">
+                <div class="row">
+                    <div class="block block-100 font-w">
+                        <div class="block-title">
+                            <h5>Свяжитесь с нами</h5>
+                        </div>
+                        <div class="block-content">
+                            <div class="font_1 color_1">ТЕЛ.:</div>
+                            <div>+38 (066) 299 4965</div>
+                            <div>+38 (093) 811 9690</div>
+                        </div>
+                        <div class="block-content">
+                            <div class="font_1 color_1">E-MAIL:</div>
+                            <div>megano@ukr.net</div>
+                        </div>
+                        <div class="block-content">
+                            <div class="font_1 color_1">ОФИС:</div>
+                            <div>Киев, ул. Авиаконструктора Игоря Сикорского 6, офис 3 (рядом с Посольством США)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-block block-100">
+                <div class="ribbon ribbon-blue ribbon-left"></div>
+                <div class="ribbon ribbon-blue ribbon-right"></div>
+                <div class="block-title bg-blue">
+                    <h5>Анкеты для заполнения</h5>
+                </div>
+                <div class="block-content center">
+                    <div class="block block-33">
+                        <a href="#">
+                            <img src="images/usa_flag.png">
+                        </a>
+                    </div>
+                    <div class="block block-33">
+                        <a href="#">
+                            <img src="images/gb_flag.png">
+                        </a>
+                    </div>
+                    <div class="block block-33">
+                        <a href="#">
+                            <img src="images/ca_flag.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
