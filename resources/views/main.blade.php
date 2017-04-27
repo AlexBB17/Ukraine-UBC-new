@@ -1,6 +1,9 @@
 {!! view('layout/header') !!}
 
 <div class="row content-wrapper">
+
+    <div class="wallpaper"></div>
+
     <div class="content">
         <div class="inner-content">
 
