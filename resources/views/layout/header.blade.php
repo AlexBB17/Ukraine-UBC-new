@@ -2,7 +2,7 @@
 <head>
     <title>UKraine-UBC</title>
     <link rel="stylesheet" type="text/css" href="css/app.css">
-    <meta name=“robots” content=“noindex,nofollow”>
+    <meta name="robots" content="noindex,nofollow">
 </head>
 <div class="wrapper">
 <div class="header">
@@ -13,6 +13,7 @@
         </div>
 
         <div class="nav-menu">
+            <div class="show-menu">...</div>
             <ul>
                 <li><a class="active" href="#">Главная</a></li>
                 <li><a href="#">США</a></li>
