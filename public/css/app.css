@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +11,7 @@
     font: inherit;
     vertical-align: baseline;
 }
-body { margin: 0; color: #545658; font-family: 'Roboto', sans-serif; }
+body { margin: 0; color: #545658; font-family: Roboto, sans-serif; }
 .content-wrapper { max-width: 960px; width: 100%; margin: auto; padding-top: 20px; }
 ul { padding: 0 0 10px 20px; margin: 0; list-style-type: circle; }
 a { text-decoration: none; color: white; }
