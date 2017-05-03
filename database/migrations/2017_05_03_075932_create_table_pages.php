@@ -21,12 +21,13 @@ class CreateTablePages extends Migration
             $table->text('text')->nullable();
             $table->string('shortcut')->nullable();
             $table->string('main_img')->nullable();
+            $table->integer('parent_id')->nullable();
             $table->integer('left_key');
             $table->integer('right_key');
-            $table->integer('level');
+            $table->timestamps();
 
             $table->unique('href');
-            $table->index(['left_key', 'right_key', 'level']);
+            $table->index(['parent_id', 'left_key', 'right_key']);
         });
     }
 

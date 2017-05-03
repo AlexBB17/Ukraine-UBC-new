@@ -14,8 +14,7 @@ class PagesSeeder extends Seeder
         DB::table('pages')->insert([
             'title' => 'root',
             'left_key' => 1,
-            'right_key' => 2,
-            'level' => 0
+            'right_key' => 2
         ]);
     }
 }
