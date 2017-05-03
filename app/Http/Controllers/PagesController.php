@@ -47,17 +47,14 @@ class PagesController extends Controller
     public function show($href)
     {
         $pages = new Pages();
-        var_dump($pages->makeMagic());
-        die();
-        //$test = $pages->getPageAndChildren($href);
-        $bool = Pages::defaultOrder()->get();
-        var_dump($bool);
-        die;
-        if (empty($test)) {
+        $pageContent = $pages->getMainAndChildren($href);
+        if (empty($pageContent)) {
             abort(404);
         }
 
-        var_dump($test);
+        return view('pages', [
+            'pageContent' => $pageContent
+        ]);
     }
 
     /**

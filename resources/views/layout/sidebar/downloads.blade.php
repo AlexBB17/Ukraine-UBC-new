@@ -8,17 +8,17 @@
         <div class="block-content center">
             <div class="block block-30">
                 <a class="flag" href="#">
-                    <img src="images/usa_flag.png">
+                    <img src="/images/usa_flag.png">
                 </a>
             </div>
             <div class="block block-30">
                 <a class="flag" href="#">
-                    <img src="images/gb_flag.png">
+                    <img src="/images/gb_flag.png">
                 </a>
             </div>
             <div class="block block-30">
                 <a class="flag" href="#">
-                    <img src="images/ca_flag.png">
+                    <img src="/images/ca_flag.png">
                 </a>
             </div>
         </div>

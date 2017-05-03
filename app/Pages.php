@@ -12,7 +12,7 @@ class Pages extends Main
     protected $_left = 'left_key';
     protected $_right = 'right_key';
 
-    public function getPageAndChildren($href) {
+    public function getMainAndChildren($href) {
         return $this->_query()
             ->where(['href' => $href])
             ->get()
