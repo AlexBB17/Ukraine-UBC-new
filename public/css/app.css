@@ -150,6 +150,16 @@ nav .show-menu {
     padding: 0;
 }
 
+.copyright {
+    float: left;
+    padding-left: 3px;
+}
+
+.developer {
+    float: right;
+    padding-right: 3px;
+}
+
 .block-100 { width: 100%; }
 .block-90 { width: 90%; }
 .block-80 { width: 80%; }
@@ -303,8 +313,8 @@ nav .show-menu {
         margin-left:10px;
     }
 
-    .inner-sidebar .block-width {
+    .inner-sidebar .block-width, 
+    .copyright, .developer {
         padding: 0;
     }
-
 }
