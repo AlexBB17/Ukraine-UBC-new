@@ -46,12 +46,12 @@ class PagesController extends Controller
      */
     public function show($href)
     {
+        $request = new Request();
         $pages = new Pages();
         $pageContent = $pages->getMainAndChildren($href);
         if (empty($pageContent)) {
             abort(404);
         }
-
         return view('pages', [
             'pageContent' => $pageContent
         ]);
